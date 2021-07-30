@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: fretes
+grpc:
+  server:
+    keep-alive-time: 1h
+    max-inbound-message-size: 1024
+
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+    details-visible: ANONYMOUS
